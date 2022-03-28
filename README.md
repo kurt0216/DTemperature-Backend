@@ -45,6 +45,6 @@ function updateRequest (
 }
 ```
 
-### Address of Oracle contract
+### Address of Oracle contract on Rinkeby
 You can see the latest temperature from the contract deployed the Rinkeby testnet.
 https://rinkeby.etherscan.io/address/0x9038f129eD1273dfC233da0dB2D99c790d9E40F8#readContract
