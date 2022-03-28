@@ -48,3 +48,12 @@ function updateRequest (
 ### Address of Oracle contract on Rinkeby
 You can see the latest temperature from the contract deployed the Rinkeby testnet.
 https://rinkeby.etherscan.io/address/0x9038f129eD1273dfC233da0dB2D99c790d9E40F8#readContract
+
+*Notes on DTemperature:*
++    The temperature should be converted uint value with 2 decimals
++    We can consider 27300 as 0'C
++    Example:
++       27200 => -10`C
++       27300 => 0`C
++       27400 => 10`C
+
